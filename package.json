@@ -14,6 +14,7 @@
     "build": "rollup -c",
     "lib": "vue-cli-service build --target lib --name vue3-charts ./src/index.ts",
     "lint": "vue-cli-service lint",
+    "prepare": "npm run build",
     "types": "tsc --emitDeclarationOnly",
     "themes": "cp -R ./src/themes ./dist"
   },
